@@ -68,7 +68,8 @@ _Response:_
 ```
 ### Bonus
 
-Para todas as APIs requeridas acima (exceto Login), deverá também haver uma forma de fazer a mesma operação via filas Rabbitmq.
+1. Para todas as APIs requeridas acima (exceto Login), deverá também haver uma forma de fazer a mesma operação via filas Rabbitmq.
+2. Caso conheça [Typescript](https://www.typescriptlang.org/) este teste deve ser realizado nesta linguage.
 
 ## Requisitos de Aceite
 
