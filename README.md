@@ -9,8 +9,9 @@ Esta é uma aplicação [Node](https://nodejs.org/en/) simples para avaliar o co
 2. Se você adicionou um código que deve ser testado, adicione testes.
 3. Se você mudou APIs, atualize a documentação.
 4. Certifique-se de que o conjunto de testes seja aprovado.
-5. Certifique-se de que seu código seja executado.
-6. Emita essa solicitação pull!
+5. A cobertúra mínima de testes deve ser 85%.
+6. Certifique-se de que seu código seja executado.
+7. Emita essa solicitação pull!
 
 ## Requisitos
 Construir o conjunto de APIs abaixo. APIs estas que farão operações sobre uma tabela de banco de dados relacional (postgresql).
