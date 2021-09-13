@@ -1,0 +1,22 @@
+version: "3"
+services:
+  postgres:
+    build: ./postgres-test
+    user: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: db
+  app:
+    build: .
+    environment:
+      DATABASE_URL: postgres://user:pass@postgres:4002/db
+      NODE_ENV: development
+      PORT: 3000
+    volumes:
+    -  .:/Desktop/dev
+    ports:
+      - "3000:3000"
+    command: npm start

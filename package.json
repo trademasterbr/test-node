@@ -1,0 +1,31 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "Esta é uma aplicação [Node](https://nodejs.org/en/) simples para avaliar o conhecimento do candidato para uma vaga de desenvolvedor backend para [Trademaster Servicos e Participações S.A.](https://www.trademaster.com.br/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts",
+    "deploy": "tsc && node dist/",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trademasterbr/test-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trademasterbr/test-node/issues"
+  },
+  "homepage": "https://github.com/trademasterbr/test-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.9.0",
+    "nodemon": "^2.0.12"
+  }
+}
